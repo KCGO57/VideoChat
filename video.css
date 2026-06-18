@@ -1,0 +1,62 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {
+    background-color: rgb(197, 221, 196);
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#screen {
+    width: 1200px;
+    height: 700px;
+    background-color: black;
+}
+
+.buttons{
+    position:absolute;
+    left: 240px;
+    top: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 350px;
+    
+}
+#button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(199, 163, 163);
+    color: white;
+    text-align: center;
+}
+
+#box{
+    height: 1000px;
+    width: 20px;
+    background-color: rgb(123,73,19);
+    position: absolute;
+    left: 20px;
+}
+#box2{
+    height: 1000px;
+    width: 20px;
+    background-color: rgb(123,73,19);
+    position: absolute;
+    left: 80px;
+
+}
+
+#box3{
+    height: 15px;
+    width: 1700px;
+    background-color: rgb(123,73,19);
+    position: absolute;
+    top: 15px;
+}
+
